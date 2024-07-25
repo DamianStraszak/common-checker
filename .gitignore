@@ -1,0 +1,39 @@
+# Node.js dependencies
+node_modules/
+
+# Output of 'npm' and 'yarn'
+package-lock.json
+yarn.lock
+
+# Vite build output
+dist/
+
+# Local environment settings
+.env.local
+.env.*.local
+
+# Log files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Optional npm cache directory
+.npm
+
+# IDE specific settings
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# MacOS files
+.DS_Store
+
+# TypeScript cache
+*.tsbuildinfo
+
+# Yarn berry
+.pnp.*
